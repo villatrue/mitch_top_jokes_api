@@ -5,10 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-require 'pry'
 
 Joke.destroy_all
 scrape = Scraper.new
 jokes = scrape.scrape_jokes
-binding.pry
 Joke.create_from_scrape(jokes)
