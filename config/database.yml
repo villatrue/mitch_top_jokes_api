@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: demo_test_development
+  database: mitch_top_jokes
   pool: 5
   username: seancarter
   password:
@@ -47,11 +47,10 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: demo_test_test
+  database: mitch_top_jokes
   pool: 5
   username: seancarter
   password:
   timeout: 5000
 
   # something is wrong here
-  
